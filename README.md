@@ -2,7 +2,7 @@
 
 A MATLAB-based statistical computing project focused on fitting a quadratic curve to a set of 2D data points using the Least Squares Method. The objective is to minimize key performance indicators (KPIs) such as the residual norm.
 
-Developed as an academic mini-project for **GEN211 - Probability and Statistics (Fall 2025)** at **El Sewedy University of Technology (SUT)**.
+Developed as an academic mini-project for **GEN211 - Probability and Statistics** at **El Sewedy University of Technology (SUT)**.
 
 ---
 

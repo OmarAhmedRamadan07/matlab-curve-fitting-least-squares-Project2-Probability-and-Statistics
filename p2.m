@@ -29,15 +29,15 @@ fprintf('c0 = %.4f\n', c0);
 fprintf('c1 = %.4f\n', c1);
 fprintf('c2 = %.4f\n', c2);
 
-% Expected values
+% Expected Values
 y_hat = c0 + c1*x + c2*x.^2;
 
-% Plotting the curve
+% drawing the curve
 hold on;
 plot(x, y_hat, 'r', 'LineWidth', 2);
 legend('Original Data', 'Quadratic Fit');
 
-% Error
+% error
 residuals = y - y_hat;
 disp(['Residual Norm = ', num2str(norm(residuals))]);
 
